@@ -1,0 +1,207 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #222; /* Fundo escuro para contraste */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000; /* Preto */
+}
+
+.navbar-brand {
+    color: #FFD700; /* Amarelo */
+}
+
+.navbar-nav .nav-link {
+    color: #FFD700; /* Amarelo */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFF; /* Branco em hover */
+}
+
+/* Container principal */
+.container {
+    padding: 20px;
+    background-color: #333; /* Escuro para contraste com o texto */
+    border-radius: 8px;
+
+}
+
+/* Formulários */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form-box {
+    background-color: #444; /* Cinza escuro */
+    color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-box h2 {
+    color: #FFD700; /* Amarelo */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFD700; /* Amarelo */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #222; /* Escuro para contraste com o texto */
+    color: #FFF;
+}
+
+button {
+    background-color: #FFD700; /* Amarelo */
+    color: #000; /* Preto */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFC107; /* Amarelo mais claro em hover */
+}
+
+/* Alertas */
+.alert {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #4CAF50; /* Verde para sucesso */
+    color: #FFF;
+}
+
+.alert-danger {
+    background-color: #F44336; /* Vermelho para erro */
+    color: #FFF;
+}
+
+.alert-info {
+    background-color: #2196F3; /* Azul para informação */
+    color: #FFF;
+}
+
+/* Tabelas */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+.table th {
+    background-color: #000; /* Preto */
+    color: #FFD700; /* Amarelo */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #333;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #222;
+}
+
+/* Reservas */
+.reservation-form {
+    background-color: #444;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.reservation-form h3 {
+    color: #FFD700; /* Amarelo */
+}
+
+/* Login e Cadastro */
+.login-container, .cadastro-container {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px; /* Aumenta o arredondamento das bordas */
+    box-shadow: 0 4px 8px rgba(159, 159, 159, 0.1); /* Adiciona uma sombra para destacar o container */
+    background-color: #000000; /* Cor de fundo para melhor contraste */
+}
+
+.login-container {
+    margin-top: 40px; /* Espaço superior adicional */
+    
+}
+
+.cadastro-container {
+    margin-top: 40px; /* Espaço superior adicional */
+}
+
+
+.login-container h2, .cadastro-container h1 {
+    color: #FFD700; /* Amarelo */
+    margin-bottom: 20px;
+}
+
+/* Switch Form */
+.switch-form {
+    color: #FFD700; /* Amarelo */
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.switch-form:hover {
+    color: #FFF; /* Branco em hover */
+}
+
+/* Adicional para formulários de login e cadastro */
+.form-box input[type="email"],
+.form-box input[type="password"],
+.form-box input[type="text"],
+.form-box input[type="date"],
+.form-box input[type="tel"],
+.form-box select {
+    background-color: #222;
+    color: #FFF;
+}
+
+/* Outros estilos gerais */
+footer {
+    background-color: #000;
+    color: #FFD700;
+    padding: 10px 0;
+    text-align: center;
+}
+
